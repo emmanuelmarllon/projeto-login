@@ -9,7 +9,8 @@
     background-image: linear-gradient(to top, #0b0d64, #1b1ff5);
   }
   section#login {
-    width: 80vw;
+    width: 90vw;
+    height: 290px;
   }
   section#login > div#imagem {
     float: left;
@@ -28,6 +29,7 @@
   }
   section#login {
     width: 950px;
+    height: 550px;
   }
   section#login > section#imagem {
     float: right;
@@ -43,5 +45,8 @@
   }
   div#formulario > p {
     font-size: 1.2em;
+  }
+  form > .botao {
+    margin-bottom: 30px;
   }
 }
